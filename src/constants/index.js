@@ -102,7 +102,7 @@ export const myProjects = [
     subDescription: [
       "It monitors network devices across multiple countries, integrates external APIs for contextual data (weather, geolocation, time, news), provides real-time SNMP device monitoring, and delivers actionable analytics through a responsive web dashboard.",
     ],
-    href: "https://github.com/2sumC/Multi-Site-Office-Network-Monitoring-API-Dashboard",
+    href: "https://multi-site-office-network-monitoring-api.onrender.com/",
     logo: "",
     image: "/assets/projects/4.jpeg",
     tags: [
