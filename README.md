@@ -2,9 +2,7 @@
 
 A modern developer portfolio built with React, Three.js, and Framer Motion — featuring a 3D interactive astronaut model, scroll-driven animations, and a space-themed design.
 
-## Preview
-
-![Portfolio Screenshot](/assets/projects/preview.png)
+## Link: 
 
 ## Tech Stack
 
@@ -36,10 +34,10 @@ A modern developer portfolio built with React, Three.js, and Framer Motion — f
 
 ```bash
 # Clone the repository
-git clone https://github.com/2sumC/your-repo-name.git
+git clone https://github.com/2sumC/3D-Portfolio-Responsive.git
 
 # Navigate to the project
-cd your-repo-name
+cd 3D-Portfolio-Responsive
 
 # Install dependencies
 npm install
