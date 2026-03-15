@@ -1,116 +1,99 @@
-# 🚀 3D Developer Portfolio
+# Personal Portfolio
 
-A modern, animated 3D developer portfolio built with React, Three.js, TailwindCSS, and motion effects — designed to help you stand out and showcase your skills creatively.
+A modern developer portfolio built with React, Three.js, and Framer Motion — featuring a 3D interactive astronaut model, scroll-driven animations, and a space-themed design.
 
-![3d Portfolio Screenshot GitHub](https://github.com/user-attachments/assets/9b0ed20e-074e-4f2a-81d8-20c9da751e9e)
+## Preview
 
----
+Link: 
 
-## 📚 Table of Contents
+## Tech Stack
 
-- [Features](#-features)
-- [Tech Stack](#-tech-stack)
-- [Project Structure](#-project-structure)
-- [Getting Started](#-getting-started)
-- [Assets](#-assets)
-- [Contact Me](#-contact-me)
-- [Suggestions or Feedback](#-suggestions-or-feedback)
-- [Like This Project?](#-like-this-project)
+- **React** — Component-based UI
+- **Three.js / React Three Fiber** — 3D model rendering (GLB astronaut with blink animation)
+- **Framer Motion** — Page transitions, scroll animations, and micro-interactions
+- **Tailwind CSS** — Utility-first styling
+- **EmailJS** — Contact form email delivery (no backend needed)
 
----
+## Features
 
-## ✨ Features
+- **3D Hero Section** — Interactive astronaut model with parallax space background and particle effects
+- **Animated Text** — Staggered entry animations and keyword flip effect (Intelligent → Modern → Scalable)
+- **Bento Grid About Section** — Interactive draggable cards, 3D globe, and orbiting tech stack icons
+- **Project Showcase** — Mouse-follow preview images with detailed modal popups
+- **Shooting Star Particles** — Canvas-based starfield with animated shooting stars in the contact section
+- **Scroll-Driven Timeline** — Purple progress line that fills as you scroll through projects
+- **Responsive Design** — Fully optimized for desktop and mobile
+- **Contact Form** — Direct email delivery via EmailJS integration
 
-- 🔥 3D visuals powered by **React Three Fiber** and **Drei**
-- ⚡ Smooth transitions and scroll-based animations using **Framer Motion**
-- 🎨 Clean, responsive UI with **TailwindCSS**
-- 💌 Working contact form using **EmailJS**
-- 🧱 Beautiful UI enhancements with **Aceternity UI** and **Magic UI**
-- 🚀 Lightning-fast development with **Vite**
+## Getting Started
 
----
+### Prerequisites
 
-## 🛠 Tech Stack
+- Node.js (v18+)
+- npm or yarn
 
-| Tech              | Description                           |
-|-------------------|---------------------------------------|
-| React             | Front-end JavaScript library          |
-| Vite              | Fast bundler and dev environment      |
-| TailwindCSS       | Utility-first CSS framework           |
-| React Three Fiber | 3D rendering with Three.js in React   |
-| Drei              | Helpers and abstractions for R3F      |
-| Framer Motion     | Animation library for React           |
-| EmailJS           | Form handling and email integration   |
-| Aceternity UI     | Custom UI components                  |
-| Magic UI          | Prebuilt UI elements and design extras|
-
----
-
-## 📁 Project Structure
+### Installation
 
 ```bash
-├── public/
-│   ├── assets/             # Images, textures, models
-│   ├── models/             # 3D Astronaut model
-│   └── vite.svg
-├── src/
-│   ├── components/         # Reusable components
-│   ├── constants/          # Reusable datas
-│   ├── sections/           # Portfolio sections (Hero, About, etc.)
-│   ├── App.jsx             # Main app file
-│   ├── index.css           # Tailwind css
-│   └── main.jsx            # Entry point
-├── tailwind.config.js
-└── vite.config.js
-```
+# Clone the repository
+git clone https://github.com/2sumC/3D-Portfolio-Responsive.git
 
----
+# Navigate to the project
+cd 3D-Portfolio-Responsive
 
-## 🚀 Getting Started
-1. Clone the Repository
-```bash
-git clone https://github.com/Ali-Sanati/Portfolio.git
-cd Portfolio
-```
-2. Install Dependencies
-```bash
+# Install dependencies
 npm install
-```
-3. Run the Development Server
-```bash
+
+# Start the development server
 npm run dev
 ```
-The app will be available at http://localhost:5173.
 
----
+The site will be available at `http://localhost:5173`.
 
-## 🔗 Assets
-Assets used in the project can be found [here](https://github.com/user-attachments/files/19820923/public.zip)
+### Environment Setup
 
----
+To enable the contact form, create an account at [EmailJS](https://www.emailjs.com/) and update the service ID, template ID, and public key in `src/sections/Contact.jsx`.
 
-## 📬 Contact Me
-[![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://www.instagram.com/ali.sanatidev/reels/) 
-[![Static Badge](https://img.shields.io/badge/Youtube-%23FF0033?style=flat&logo=youtube)](https://www.youtube.com/channel/UCZhtUWTtk3bGJiMPN9T4HWA)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ali-sanati/) 
+## Project Structure
 
----
+```
+src/
+├── components/        # Reusable UI components
+│   ├── Astronaut.jsx      # 3D astronaut model (Three.js)
+│   ├── Card.jsx           # Draggable skill cards
+│   ├── FlipWords.jsx      # Keyword rotation animation
+│   ├── Frameworks.jsx     # Orbiting tech stack icons
+│   ├── globe.jsx          # 3D globe component
+│   ├── OrbitingCircles.jsx # Circular orbit animation
+│   ├── Particles.jsx      # Starfield + shooting stars
+│   └── ...
+├── sections/          # Page sections
+│   ├── Hero.jsx
+│   ├── About.jsx
+│   ├── Projects.jsx
+│   ├── Contact.jsx
+│   └── ...
+├── constants/         # Static data (projects, socials, etc.)
+│   └── index.js
+├── App.jsx            # Main app layout
+├── index.css          # Global styles + Tailwind config
+└── main.jsx           # Entry point
+```
 
-## 💡 Suggestions or Feedback?
-Leave a comment on the [YouTube video](https://youtu.be/S9UQItTpwUQ) or open an issue here on GitHub.<br/>
-👉 What should I build next?
+## Deployment
 
-- A beautiful Landing Page
+This project is deployed on [Vercel](https://vercel.com). Any push to the `main` branch triggers an automatic redeployment.
 
-- A complete E-commerce site
+## Customization
 
-- A fun App Clone (YouTube, Netflix, etc.)
+To make this portfolio your own:
 
-Or another interactive Portfolio
+1. **Personal info** — Edit `src/constants/index.js` (name, projects, socials, education)
+2. **Hero text** — Update `src/components/HeroText.jsx` (tagline, flip words)
+3. **3D model** — Replace the GLB file in the assets folder
+4. **Color theme** — Modify CSS variables in `src/index.css`
+5. **Contact form** — Update EmailJS credentials in `src/sections/Contact.jsx`
 
-Let me know!
+## License
 
----
-
-## ⭐ Like This Project?
-Star the repo and [subscribe](https://www.youtube.com/channel/UCZhtUWTtk3bGJiMPN9T4HWA??sub_confirmation=1) to the YouTube channel for more dev content!
+This project is open source and available under the [MIT License](LICENSE).
