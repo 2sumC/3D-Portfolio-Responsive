@@ -36,7 +36,7 @@ Link:
 
 ```bash
 # Clone the repository
-git clone https://github.com/2sumC/3D-Portfolio-Responsive.git
+git clone https://github.com/2sumC/3D-Porfolio-Responsive.git
 
 # Navigate to the project
 cd 3D-Portfolio-Responsive
@@ -93,3 +93,7 @@ To make this portfolio your own:
 3. **3D model** — Replace the GLB file in the assets folder
 4. **Color theme** — Modify CSS variables in `src/index.css`
 5. **Contact form** — Update EmailJS credentials in `src/sections/Contact.jsx`
+
+## License
+
+This project is open source and available under the [MIT License](LICENSE).

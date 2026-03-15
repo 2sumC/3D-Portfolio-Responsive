@@ -43,7 +43,7 @@ export const myProjects = [
       "Refactored into reusable components and hooks; improved code maintainability and reduced development time.",
       "Deployed to AWS S3 with static website hosting for reliable public access while documenting repeatable deployment procedures.",
     ],
-    href: "https://github.com/2sumC/Financial-App-LandingPage-FullStack-Responsive",
+    href: "https://financial-21skknpz9-2sumcs-projects.vercel.app/",
     logo: "",
     image: "/assets/projects/2.jpeg",
     tags: [
@@ -102,7 +102,7 @@ export const myProjects = [
     subDescription: [
       "It monitors network devices across multiple countries, integrates external APIs for contextual data (weather, geolocation, time, news), provides real-time SNMP device monitoring, and delivers actionable analytics through a responsive web dashboard.",
     ],
-    href: "https://github.com/2sumC/Multi-Site-Office-Network-Monitoring-API-Dashboard",
+    href: "https://multi-site-office-network-monitoring-api.onrender.com/",
     logo: "",
     image: "/assets/projects/4.jpeg",
     tags: [
