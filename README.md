@@ -93,7 +93,3 @@ To make this portfolio your own:
 3. **3D model** — Replace the GLB file in the assets folder
 4. **Color theme** — Modify CSS variables in `src/index.css`
 5. **Contact form** — Update EmailJS credentials in `src/sections/Contact.jsx`
-
-## License
-
-This project is open source and available under the [MIT License](LICENSE).
