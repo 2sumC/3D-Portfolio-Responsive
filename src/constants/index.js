@@ -35,7 +35,7 @@ export const myProjects = [
     ],
   },
   {
-    id: 2,
+    id: 3,
     title: "Financial App Landing Page",
     description:
       "A responsive landing page with modular React components, smooth navigation, and a reviews carousel to showcase product features.",
@@ -70,7 +70,7 @@ export const myProjects = [
     ],
   },
   {
-    id: 3,
+    id: 4,
     title: "Heart Attack Analysis and Prediction",
     description:
       "A machine learning pipeline using Kaggle data to predict heart attack risk, achieving 90.3% accuracy and 93% AUC with Random Forest classifier.",
@@ -95,7 +95,7 @@ export const myProjects = [
     ],
   },
   {
-    id: 4,
+    id: 5,
     title: "Multi-site Network Monitoring Dashboard",
     description:
       "A comprehensive ICT infrastructure monitoring system designed for international organizations with distributed offices worldwide.",
@@ -120,6 +120,35 @@ export const myProjects = [
         id: 3,
         name: "RESTful API",
         path: "/assets/logos/microsoft.svg",
+      },
+    ],
+  },
+  {
+    id: 2,
+    title: "Receipt Scanner & Expense Tracker",
+    description:
+      "A full-stack expense tracking app with AI-powered receipt scanning.",
+    subDescription: [
+      "Cost Tracker lets you photograph a receipt and have an AI model extract the merchant, date, total, and every line item — each automatically assigned to a spending category. You can also add expenses manually, edit past entries, and browse monthly breakdowns by category.",
+    ],
+    href: "https://receipt-scanner-tracker.vercel.app/",
+    logo: "",
+    image: "/assets/projects/5.jpeg",
+    tags: [
+      {
+        id: 1,
+        name: "Typescript",
+        path: "/assets/logos/TS.png",
+      },
+      {
+        id: 2,
+        name: "Next.js",
+        path: "/assets/logos/react.svg",
+      },
+      {
+        id: 3,
+        name: "TailwindCSS",
+        path: "/assets/logos/tailwindcss.svg",
       },
     ],
   },
