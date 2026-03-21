@@ -35,6 +35,35 @@ export const myProjects = [
     ],
   },
   {
+    id: 2,
+    title: "Receipt Scanner & Expense Tracker",
+    description:
+      "A full-stack expense tracking app with AI-powered receipt scanning.",
+    subDescription: [
+      "Cost Tracker lets you photograph a receipt and have an AI model extract the merchant, date, total, and every line item — each automatically assigned to a spending category. You can also add expenses manually, edit past entries, and browse monthly breakdowns by category.",
+    ],
+    href: "https://receipt-scanner-tracker.vercel.app/",
+    logo: "",
+    image: "/assets/projects/5.jpeg",
+    tags: [
+      {
+        id: 1,
+        name: "Typescript",
+        path: "/assets/logos/TS.png",
+      },
+      {
+        id: 2,
+        name: "Next.js",
+        path: "/assets/logos/react.svg",
+      },
+      {
+        id: 3,
+        name: "TailwindCSS",
+        path: "/assets/logos/tailwindcss.svg",
+      },
+    ],
+  },
+  {
     id: 3,
     title: "Financial App Landing Page",
     description:
@@ -69,6 +98,7 @@ export const myProjects = [
       },
     ],
   },
+
   {
     id: 4,
     title: "Heart Attack Analysis and Prediction",
@@ -123,35 +153,7 @@ export const myProjects = [
       },
     ],
   },
-  {
-    id: 2,
-    title: "Receipt Scanner & Expense Tracker",
-    description:
-      "A full-stack expense tracking app with AI-powered receipt scanning.",
-    subDescription: [
-      "Cost Tracker lets you photograph a receipt and have an AI model extract the merchant, date, total, and every line item — each automatically assigned to a spending category. You can also add expenses manually, edit past entries, and browse monthly breakdowns by category.",
-    ],
-    href: "https://receipt-scanner-tracker.vercel.app/",
-    logo: "",
-    image: "/assets/projects/5.jpeg",
-    tags: [
-      {
-        id: 1,
-        name: "Typescript",
-        path: "/assets/logos/TS.png",
-      },
-      {
-        id: 2,
-        name: "Next.js",
-        path: "/assets/logos/react.svg",
-      },
-      {
-        id: 3,
-        name: "TailwindCSS",
-        path: "/assets/logos/tailwindcss.svg",
-      },
-    ],
-  },
+  
 ];
 
 export const mySocials = [
